@@ -51,3 +51,35 @@
 .share-btn:hover {
   opacity: 0.85;
 }
+.categories{
+  display:flex;
+  gap:10px;
+  margin: 16px 0;
+}
+
+.categories button.active{
+  font-weight:700;
+  border-bottom:2px solid #000;
+}
+.likes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.like-btn {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+}
+
+.like-btn:hover {
+  opacity: 0.9;
+}
+
+.like-count {
+  font-weight: 600;
+}
